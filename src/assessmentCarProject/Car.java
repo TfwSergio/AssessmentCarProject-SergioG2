@@ -1,5 +1,4 @@
-//this is the start of your Car class 
-
+//Sergio Garcia 
 package assessmentCarProject;
 
 public class Car {
