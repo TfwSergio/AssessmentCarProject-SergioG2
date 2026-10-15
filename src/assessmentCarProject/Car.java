@@ -21,7 +21,87 @@ public class Car {
         this.mileage = mileage;
     }
 
-    // getters for every field, e.g.:
+    
+    
+    public String getBrand() {
+		return brand;
+	}
+
+
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+
+
+	public String getModel() {
+		return model;
+	}
+
+
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+
+
+	public int getYear() {
+		return year;
+	}
+
+
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+
+
+	public String getFuelType() {
+		return fuelType;
+	}
+
+
+
+	public void setFuelType(String fuelType) {
+		this.fuelType = fuelType;
+	}
+
+
+
+	public String getColor() {
+		return color;
+	}
+
+
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+
+
+	public double getMileage() {
+		return mileage;
+	}
+
+
+
+	public void setMileage(double mileage) {
+		this.mileage = mileage;
+	}
+
+
+
+	public void setCarId(String carId) {
+		this.carId = carId;
+	}
+
+
+
+	// getters for every field, e.g.:
     public String getCarId() { return carId; }
     // ... (Eclipse can generate these: Source → Generate Getters and Setters)
 
@@ -30,4 +110,7 @@ public class Car {
         return carId + " | " + brand + " " + model + " | " + year + " | "
              + fuelType + " | " + color + " | " + mileage + " kmpl";
     }
+    
+    //these are the setters and getters needed to identify the car and to format the information properly
+    
 }
